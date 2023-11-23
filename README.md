@@ -3,7 +3,8 @@
 1. `pod install`
 2. Open the Xcode workspace -> the `Pods` project -> the `Upsurge` target, `Build Settings`, change the `Swift Language Version` to 4.2.
 3. Add a new plist to the project, named `Config.plist`.
-4. Add these string properties to the plist, using the corresponding values from your Foursquare/Last.fm developer accounts: 
+4. Add these string properties to the plist, using the corresponding values from your Foursquare/Last.fm developer accounts:
+    - `FoursquareAPIKey`
     - `FoursquareClientId`
     - `FoursquareClientSecret`
 
